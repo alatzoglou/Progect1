@@ -4,12 +4,21 @@
  */
 package com.mycompany.progectiek;
 
+import java.util.Date;
+
 /**
  *
  * @author k.alatzoglou
  */
 public class Player {
-  public static void main(String[] args) {
-    System.out.println("Hello World");
+ private String FirstName;
+ private String LasrName;
+ private Date BirthDate;
+ 
+ public Player (String f,String l){ 
+     this.FirstName =f;
+     this .LasrName =l;
+     
+ }
   }
-}
+
